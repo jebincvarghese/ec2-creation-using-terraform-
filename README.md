@@ -14,7 +14,7 @@ Here is a simple document on how to use Terraform to build an AWS EC2 .
 
 ## Variables used
 
-region - Region of the VPC (default: us-east-2)
+region - Region of the EC2 (default: us-east-2)
 
 
 project - Name of project this VPC is meant for (default: demo)
