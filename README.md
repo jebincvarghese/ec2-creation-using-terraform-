@@ -85,7 +85,8 @@ resource "aws_instance"  "Instance Name" {
 terraform validate
 ```
 ## Lets plan the architecture and verify once again.
-```terraform plan
+```
+terraform plan
 ```
 ## Lets apply the above architecture to the AWS.
 ```
