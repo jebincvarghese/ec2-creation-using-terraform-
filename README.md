@@ -68,11 +68,11 @@ Lets start creating main.tf file with the details below.
 
 ```
 resource "aws_instance"  "Instance Name" {  
-  ami                          =  "Paste you ami id"
-  instance_type                =  "mention your instance type"
+  ami                          =  "Enter you ami id"
+  instance_type                =  "Enter your instance type"
   associate_public_ip_address  =  true
-  key_name                     =  "The name for the key pair."
-  vpc_security_group_ids       =  " The id of your securty group."
+  key_name                     =  "Enter the name for the key pair."
+  vpc_security_group_ids       =  " Enter the id of your securty group."
   tags = {
     Name = "tag_name"
   }
